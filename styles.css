@@ -1,0 +1,256 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #1f2937;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-size: 48px;
+  font-weight:bolder; 
+}
+
+a {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: whitesmoke;
+}
+
+/*    Navbar    */
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color:white;
+}
+
+.header-logo {
+  height: 36px;
+  margin-left: 24px;
+  border: 4px solid lightblue;
+  border-spacing: 50%;
+}
+
+.header-logo:hover {
+  border: 4px solid blue;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 12px;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.nav-links a:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+
+
+/*    Title section    */
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.media-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 128px 72px 72px;
+  gap: 24px;
+  padding: 32px;
+  border: 3px solid whitesmoke;
+  border-spacing: 200px;
+  box-shadow: 2px 2px 20px 2px;
+  background: #1f2937;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 32px;
+}
+
+.textbox h1 {
+  color: whitesmoke;
+}
+
+.main-img {
+  object-fit: cover;
+  flex: 1 1 auto;
+  max-width: 300px;
+  border: 15px solid white;
+  border-spacing: 50%;
+  box-shadow: 2px 2px 3px;
+}
+
+.sign-button {
+  font-weight: 900;
+  color: whitesmoke;
+  padding: 4px 24px;
+  border-radius: 4px;
+  background-color: blue;
+}
+
+.sign-button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  box-shadow: 1px 1px burlywood;
+}
+
+
+/*  Team information section  */
+.places-title {
+  color: white;
+  text-shadow: 2px 2px blue;
+  text-align: center;
+  padding: 96px 0 48px;
+}
+
+.places-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 48px;
+  padding-bottom: 128px;
+}
+
+.places {
+  display: flex;
+  color: azure;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.places-icon {
+  width: 200px;
+  height: 200px;
+  border: 12px solid rgb(230, 250, 250);
+  border-radius: 32px;
+  box-shadow: 2px 2px 3px white;
+  object-fit: cover;
+}
+
+.places-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+
+/*    Testimonial section     */
+.quote-section {
+  display: flex;
+  flex-direction: column;  
+  padding: 128px 192px 96px;
+  background-color: lightblue;
+  font-size: 24px;
+  line-height: 150%;
+  font-style: italic;
+}
+
+.quote-section p {
+  text-align: end;
+  font-style: normal;
+  font-weight: 600;
+  color: brown;
+}
+
+
+/*    Emain signup    */
+.signup-section {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  border: 6px solid lightblue;
+  border-radius: 24px;
+  box-shadow: 2px 2px 3px white;
+  margin: 128px auto;
+  padding: 32px 48px;
+  max-width: 1100px;
+}
+
+.email-text h2 {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-family: 'Titan One', Arial, Helvetica, sans-serif;
+  padding-bottom: 8px;
+}
+
+.email-text p {
+  padding-right: 24px;
+}
+
+.email-btn {
+  flex-shrink: 0;
+  height: 36px;
+  width: 128px;
+  padding: 4px 24px;
+  margin: 24px auto;
+  background-color:whitesmoke
+  border-radius: 4px;
+  border: 2px solid lightblue;
+  box-shadow: 2px 2px 3px black;
+  font-weight: 400;
+}
+
+.email-btn:hover {
+  font-weight: 800;
+  background-color: blue;
+  border-color: white;
+  cursor: pointer;
+}
+
+/*    Footer    */
+footer p {
+  padding: 24px;
+  text-align: center;
+  color: black;
+  background-color: rgb(230, 250, 250);
+}
+
+    © 2021 GitHub, Inc.
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
