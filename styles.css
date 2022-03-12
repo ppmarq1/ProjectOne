@@ -107,7 +107,7 @@ p {
   object-fit: cover;
   flex: 1 1 auto;
   max-width: 300px;
-  border: 15px solid white;
+  border: 15px solid grey;
   border-spacing: 50%;
   box-shadow: 2px 2px 3px;
 }
